@@ -8,11 +8,11 @@ module.exports = {
         path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js'
     },
-    resolver: {
+    resolve: {
         extensions: ['.ts', '.tsx', '.js', 'jsx', '.json']
     },
     module: {
-        reules: [
+        rules: [
             {
                 test: /\.tsx?$/,
                 loader: 'awesome-typescript-loader'
